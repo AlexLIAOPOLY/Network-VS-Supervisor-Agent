@@ -1,0 +1,9 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "supervisor": "./src/enrichment_agent/graph.py:graph",
+    "network": "./src/enrichment_agent/network_graph.py:network_graph",
+    "hierarchical": "./src/enrichment_agent/hierarchical_graph.py:hierarchical_graph"
+  },
+  "env": ".env"
+}

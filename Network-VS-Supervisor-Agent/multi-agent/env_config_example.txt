@@ -1,0 +1,25 @@
+# LangGraph 多代理系统环境变量配置示例
+
+# 请将以下环境变量添加到你的 .env 文件或者在终端中设置：
+
+# DeepSeek API配置（必需）
+DEEPSEEK_API_KEY="你的DeepSeek API密钥"
+
+# Tavily搜索API配置（必需） 
+TAVILY_API_KEY="你的Tavily API密钥"
+
+# LangSmith配置（可选，用于监控和调试）
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+LANGSMITH_API_KEY="你的LangSmith API密钥"
+LANGSMITH_PROJECT="multi-agent-2025-01-16"
+
+# OpenAI API配置（可选）
+OPENAI_API_KEY="你的OpenAI API密钥"
+
+# 设置方法：
+# 方法1：在终端中直接设置
+# export DEEPSEEK_API_KEY="你的密钥"
+# export TAVILY_API_KEY="你的密钥"
+
+# 方法2：创建 .env 文件并添加上述变量
